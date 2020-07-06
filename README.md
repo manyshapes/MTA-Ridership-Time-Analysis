@@ -12,13 +12,18 @@ MTA's turnstile data is publicly available information, updated every Saturday. 
 **Jupyter Notebooks** was used as an interface through which **Python** was employed.
 **Pandas** was used for data access & transformation. **Matplotlib** and **Seaborn** were both used for plotting. **Numpy** is used for math that handles quirky outliers.
 
-
 ## Start Here 
 FootTraffic Calculations Final.ipynb has all code needed to perform the exploratory data analysis. This file includes, in following order, data retrieval (online & locally), data processing, relevant findings & plotting. Original data used for this data analysis is available within the .csv files. 
 
 ### Findings
-5am - 8am 12-3 pm
+MTA passengers may know that overall there is generally less riders before 9 am, as well as on the weekends. Early afternoons have less ridership than travels after 3 pm.
 
+These general rules of thumb must be examined more on a station by station basis--in future works, line by line basis may also be possible. Viewed within the 5 stations we've pinpointed as intakers of great foot traffic, times of peak use very greatly. 
+
+- Fulton St & 86th Station both follow our general rule of thumb, early afternoons and especially early mornings are safer.
+- 42nd Grand Central's mornings are safer with steady traffic throughout the day.
+- 59th St Station passengers gradually increase from early morning to late afternoon.
+- 34th St Penn Station sees the greatest influx of passengers in the morning, riders can expect less passengers between late morning and midday.
 
 
 #### Done By:
