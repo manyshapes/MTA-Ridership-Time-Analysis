@@ -3,7 +3,7 @@ Finding Off Peak Hours to Maximize Public Health Interests for the New York City
 This project was performed as piece of a course taught by [@metis](https://github.com/thisismetis), San Francisco branch.  
 
 ## Objective
-2-3 sentences
+Our objective is to incentivize use of MTA transit systems during lower ridership times in service of public health. We propose discounting fare prices at specific times intervals and stations, where these decisions will decided based on data visualization results of foot traffic.
 
 ### Dataset
 MTA's turnstile data is publicly available information, updated every Saturday. The data source can be found [here.](http://web.mta.info/developers/turnstile.html) Each turnstile, cataloguing entrances and exits of MTA passengers, updates its records every four hours. Passage numbers are a cummulative running total. These turnstiles are then reset periodically for system maintenance. These resets can be viewed as a unique quirk of this dataset.
